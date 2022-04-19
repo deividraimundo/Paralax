@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+body, html {
+	height: 100%;
+	margin: 0 auto;
+	color: #666;
+	font-family: 'Arial', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+}
+
+body {
+	display: block;
+}
+
+div {
+	display: block;
+}
+
+div.img-1 {
+	background-image: url(../img/imagem1.jpg);
+	min-height: 100%;
+}
+
+div.img-2 {
+	background-image: url(../img/image2.jpg);
+	min-height: 400px;
+}
+
+div.img-3 {
+	background-image: url(../img/image3.jpg);
+	min-height: 400px;
+}
+
+div.img-1, div.img-2, div.img-3 {
+	position: relative;
+	opacity: 0.7;
+	background-position: center;
+	background-repeat: no repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.titulo-1 {
+	background-color: #111;
+	color: #fff;
+	padding: 20px;
+}
+
+div.titulo-img-1, div.titulo-img-2, div.titulo-img-3 {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 27px;
+	letter-spacing: 8px;
+}
+
+.titulo-2, .titulo-3 {
+	background-color: transparent;
+}
+
+.titulo-2, .titulo-3 {
+	color: #fff;
+}
+
+section {
+	text-align: center;
+	padding: 50px 80px;
+}
+
+section.secao-1 {
+	background-color: #f4f4f4;
+	color: #666;
+}
+
+section.secao-2, section.secao-3 {
+	background-color: #282e34;
+	color: #ddd;
+}
+
+p {
+	display: block;
+}
